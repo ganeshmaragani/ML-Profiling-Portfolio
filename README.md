@@ -59,6 +59,16 @@ ML-Profiling-Portfolio/
 │   ├── 1_profile_distribution.png
 │   └── ...
 │
+├── tests/                             # Testing suite (NEW!)
+│   ├── README.md                      # Complete testing guide
+│   ├── run_all_tests.sh              # Run all tests automatically
+│   ├── test_1_environment.py         # Environment verification
+│   ├── test_2_data_loading.py        # Data validation
+│   ├── test_3_clustering.py          # Clustering test
+│   ├── test_4_statistical_validation.py  # ANOVA validation
+│   ├── test_5_portfolio_backtesting.py   # Portfolio performance
+│   └── test_6_visualizations.py      # Chart verification
+│
 ├── docs/                              # Documentation (4 files)
 │   ├── DISSERTATION_REPORT.md
 │   ├── METHODOLOGY.md
@@ -91,6 +101,31 @@ pip install -r requirements.txt
 # Start Jupyter
 jupyter notebook
 ```
+
+### ✅ Test the System (Recommended)
+
+**Before running the analysis, verify everything works:**
+
+```bash
+# Option 1: Run all tests automatically
+./tests/run_all_tests.sh
+
+# Option 2: Run individual tests
+python3 tests/test_1_environment.py      # Check Python & libraries
+python3 tests/test_2_data_loading.py     # Validate survey data
+python3 tests/test_3_clustering.py       # Test clustering
+python3 tests/test_4_statistical_validation.py  # ANOVA validation
+python3 tests/test_5_portfolio_backtesting.py   # Portfolio performance
+python3 tests/test_6_visualizations.py   # Verify charts
+```
+
+**Expected Result:** All 6 tests pass ✅ in ~2-3 minutes
+
+📖 **Detailed Testing Guide:** See [`tests/README.md`](tests/README.md) for:
+- How to run tests
+- Adding new survey data
+- Rerunning analysis with updated data
+- Troubleshooting
 
 ### Run Analysis
 
