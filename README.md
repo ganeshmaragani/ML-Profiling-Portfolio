@@ -14,7 +14,7 @@ This dissertation project develops an ML-based investor profiling system that se
 
 **Institution:** BITS Pilani - Wilp  
 **Program:** MBA (FinTech)  
-**Author:** Ganesh Maragani (2023mb53546)  
+**Author:** Ganesh Maragani (2023mb53560)  
 **Supervisor:** Dr. Charu Surana  
 **Date:** November 2025
 
@@ -139,7 +139,7 @@ python scripts/run_complete_clustering.py
 ## 📞 Contact
 
 **Author:** Ganesh Maragani  
-**Email:** 2023mb53546@wilp.bits-pilani.ac.in  
+**Email:** 2023mb53560@wilp.bits-pilani.ac.in  
 **Institution:** BITS Pilani - Wilp  
 **LinkedIn:** [linkedin.com/in/ganeshmaragani](https://linkedin.com/in/ganeshmaragani)
 
