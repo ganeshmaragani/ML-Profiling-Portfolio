@@ -1,0 +1,13 @@
+Test,Statistic,p-value,Result
+ANOVA F-test (Risk Score),68.0269,0.000000,SIGNIFICANT
+Eta-squared (Effect Size),0.8001,N/A,LARGE
+Conservative vs Balanced t-test,-24.1371,0.000000,SIGNIFICANT
+Conservative vs Aggressive t-test,-9.0823,0.000000,SIGNIFICANT
+Balanced vs Aggressive t-test,-2.9921,0.006324,SIGNIFICANT
+Chi-square (Age),24.9260,0.001600,SIGNIFICANT
+Chi-square (Gender),6.9088,0.031607,SIGNIFICANT
+Chi-square (Education),14.6288,0.023349,SIGNIFICANT
+Bootstrap Silhouette (Mean),0.6656,N/A,Std=0.0323
+Bootstrap Silhouette (95% CI Lower),0.6041,N/A,Bootstrap CI
+Bootstrap Silhouette (95% CI Upper),0.7268,N/A,Bootstrap CI
+Cluster Stability (Adj Rand Index),1.0000,N/A,EXCELLENT
